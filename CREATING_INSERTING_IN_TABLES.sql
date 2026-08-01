@@ -1,0 +1,16 @@
+CREATE DATABASE SQL_DEMO;
+
+USE SQL_DEMO;
+
+CREATE TABLE Student(
+Student_ID INT,
+Name VARCHAR(50),
+Branch VARCHAR(20),
+CGPA DECIMAL(3,2)
+);
+
+INSERT INTO Student VALUES(101, "Rohith", "CSE", 9.45);
+INSERT INTO Student VALUES(102, "Pritish", "AIML", 8.45);
+INSERT INTO Student VALUES(103, "Arjun", "IT", 9.20);
+
+SELECT * FROM Student;
