@@ -14,3 +14,6 @@ INSERT INTO Student VALUES(102, "Pritish", "AIML", 8.45);
 INSERT INTO Student VALUES(103, "Arjun", "IT", 9.20);
 
 SELECT * FROM Student;
+
+SHOW DATABASES;
+SHOW TABLES;
